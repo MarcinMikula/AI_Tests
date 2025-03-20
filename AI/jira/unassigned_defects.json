@@ -1,0 +1,1088 @@
+[
+    {
+        "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+        "id": "10053",
+        "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10053",
+        "key": "SCRUM-27",
+        "fields": {
+            "statuscategorychangedate": "2025-03-01T14:27:06.674+0100",
+            "issuetype": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10002",
+                "id": "10002",
+                "description": "Problem lub błąd.",
+                "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                "name": "Błąd w programie",
+                "subtask": false,
+                "avatarId": 10303,
+                "entityId": "bc7c59b2-fabc-4741-873f-d2a1bb787fc9",
+                "hierarchyLevel": 0
+            },
+            "parent": {
+                "id": "10030",
+                "key": "SCRUM-4",
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10030",
+                "fields": {
+                    "summary": "Sieć Neuronowa TensorFlow",
+                    "status": {
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10000",
+                        "description": "",
+                        "iconUrl": "https://marcin00001a.atlassian.net/",
+                        "name": "Do zrobienia",
+                        "id": "10000",
+                        "statusCategory": {
+                            "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/2",
+                            "id": 2,
+                            "key": "new",
+                            "colorName": "blue-gray",
+                            "name": "Do zrobienia"
+                        }
+                    },
+                    "priority": {
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                        "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                        "name": "Medium",
+                        "id": "3"
+                    },
+                    "issuetype": {
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10004",
+                        "id": "10004",
+                        "description": "Epiki śledzą kolekcje powiązanych błędów, historii i zadań.",
+                        "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                        "name": "Epik",
+                        "subtask": false,
+                        "avatarId": 10307,
+                        "entityId": "b436d5e0-fafe-410d-8645-9a73bd65cfef",
+                        "hierarchyLevel": 1
+                    }
+                }
+            },
+            "timespent": null,
+            "customfield_10030": null,
+            "project": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/project/10000",
+                "id": "10000",
+                "key": "SCRUM",
+                "name": "AI_Tests_vol_0.1",
+                "projectTypeKey": "software",
+                "simplified": true,
+                "avatarUrls": {
+                    "48x48": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416",
+                    "24x24": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=small",
+                    "16x16": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=xsmall",
+                    "32x32": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=medium"
+                }
+            },
+            "customfield_10031": null,
+            "fixVersions": [],
+            "customfield_10034": null,
+            "aggregatetimespent": null,
+            "resolution": null,
+            "customfield_10035": null,
+            "customfield_10036": null,
+            "customfield_10037": null,
+            "customfield_10027": null,
+            "customfield_10028": null,
+            "customfield_10029": null,
+            "resolutiondate": null,
+            "workratio": -1,
+            "lastViewed": null,
+            "watches": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/SCRUM-27/watchers",
+                "watchCount": 1,
+                "isWatching": true
+            },
+            "created": "2025-03-01T14:27:06.292+0100",
+            "customfield_10020": null,
+            "customfield_10021": null,
+            "customfield_10022": null,
+            "priority": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                "name": "Medium",
+                "id": "3"
+            },
+            "customfield_10023": null,
+            "customfield_10024": null,
+            "customfield_10025": null,
+            "labels": [
+                "AI",
+                "TestFailure"
+            ],
+            "customfield_10026": null,
+            "customfield_10016": null,
+            "customfield_10017": null,
+            "customfield_10018": {
+                "hasEpicLinkFieldDependency": false,
+                "showField": false,
+                "nonEditableReason": {
+                    "reason": "PLUGIN_LICENSE_ERROR",
+                    "message": "Pole Łącze nadrzędne jest dostępne tylko dla użytkowników Jira Premium."
+                }
+            },
+            "customfield_10019": "0|i000br:",
+            "timeestimate": null,
+            "aggregatetimeoriginalestimate": null,
+            "versions": [],
+            "issuelinks": [
+                {
+                    "id": "10018",
+                    "self": "https://marcin00001a.atlassian.net/rest/api/3/issueLink/10018",
+                    "type": {
+                        "id": "10000",
+                        "name": "Blocks",
+                        "inward": "is blocked by",
+                        "outward": "blocks",
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/issueLinkType/10000"
+                    },
+                    "inwardIssue": {
+                        "id": "10044",
+                        "key": "SCRUM-18",
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10044",
+                        "fields": {
+                            "summary": "Robustness Test - Accuracy 0.9601",
+                            "status": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10001",
+                                "description": "To zgłoszenie jest teraz aktywnie rozwiązywane przez osobę do niego przypisaną.",
+                                "iconUrl": "https://marcin00001a.atlassian.net/",
+                                "name": "W toku",
+                                "id": "10001",
+                                "statusCategory": {
+                                    "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/4",
+                                    "id": 4,
+                                    "key": "indeterminate",
+                                    "colorName": "yellow",
+                                    "name": "W toku"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                                "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                                "name": "Medium",
+                                "id": "3"
+                            },
+                            "issuetype": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10005",
+                                "id": "10005",
+                                "description": "Podzadania śledzą małe elementy, które są częścią większego zadania.",
+                                "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                                "name": "Podzadanie",
+                                "subtask": true,
+                                "avatarId": 10316,
+                                "entityId": "7a54d118-1637-42bf-a516-c9d1b6258f7b",
+                                "hierarchyLevel": -1
+                            }
+                        }
+                    }
+                }
+            ],
+            "assignee": null,
+            "updated": "2025-03-01T14:40:27.899+0100",
+            "status": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10000",
+                "description": "",
+                "iconUrl": "https://marcin00001a.atlassian.net/",
+                "name": "Do zrobienia",
+                "id": "10000",
+                "statusCategory": {
+                    "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/2",
+                    "id": 2,
+                    "key": "new",
+                    "colorName": "blue-gray",
+                    "name": "Do zrobienia"
+                }
+            },
+            "components": [],
+            "timeoriginalestimate": null,
+            "description": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Accuracy below threshold: 0.9578 (Threshold: 0.99)"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Metrics: Precision=0.9589, Recall=0.9578, F1-Score=0.9578"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Model Details: Layers=3 (Dense: 128 neurons, Dense: 64 neurons, Dense: 10 neurons)"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Training: Optimizer=adam, LR=0.001, Batch Size=32, Loss=sparse_categorical_crossentropy, Epochs=5"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Test Data: Size=10000 samples, Class Distribution=Class 0: 980, Class 1: 1135, Class 2: 1032, Class 3: 1010, Class 4: 982, Class 5: 892, Class 6: 958, Class 7: 1028, Class 8: 974, Class 9: 1009"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Execution Time: 14.03 seconds"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Environment: TensorFlow v2.18.0, Python 3.12.9, Windows 11"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Top Misclassification: Class 4 misclassified as 9: 29 times"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customfield_10010": null,
+            "customfield_10014": null,
+            "customfield_10015": null,
+            "customfield_10005": null,
+            "customfield_10006": null,
+            "security": null,
+            "customfield_10007": null,
+            "customfield_10008": null,
+            "customfield_10009": null,
+            "aggregatetimeestimate": null,
+            "summary": "Test failed: Accuracy 0.9578 < 0.99",
+            "creator": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/user?accountId=712020%3A383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "accountId": "712020:383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "emailAddress": "marcin00001a@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "24x24": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "16x16": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "32x32": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                },
+                "displayName": "Marcin Nowak",
+                "active": true,
+                "timeZone": "Europe/Warsaw",
+                "accountType": "atlassian"
+            },
+            "subtasks": [],
+            "reporter": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/user?accountId=712020%3A383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "accountId": "712020:383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "emailAddress": "marcin00001a@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "24x24": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "16x16": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "32x32": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                },
+                "displayName": "Marcin Nowak",
+                "active": true,
+                "timeZone": "Europe/Warsaw",
+                "accountType": "atlassian"
+            },
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            },
+            "customfield_10001": null,
+            "customfield_10002": [],
+            "customfield_10003": null,
+            "customfield_10004": null,
+            "environment": null,
+            "duedate": null,
+            "progress": {
+                "progress": 0,
+                "total": 0
+            },
+            "votes": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/SCRUM-27/votes",
+                "votes": 0,
+                "hasVoted": false
+            }
+        }
+    },
+    {
+        "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+        "id": "10045",
+        "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10045",
+        "key": "SCRUM-19",
+        "fields": {
+            "statuscategorychangedate": "2025-02-28T14:55:53.525+0100",
+            "issuetype": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10002",
+                "id": "10002",
+                "description": "Problem lub błąd.",
+                "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                "name": "Błąd w programie",
+                "subtask": false,
+                "avatarId": 10303,
+                "entityId": "bc7c59b2-fabc-4741-873f-d2a1bb787fc9",
+                "hierarchyLevel": 0
+            },
+            "timespent": null,
+            "customfield_10030": null,
+            "project": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/project/10000",
+                "id": "10000",
+                "key": "SCRUM",
+                "name": "AI_Tests_vol_0.1",
+                "projectTypeKey": "software",
+                "simplified": true,
+                "avatarUrls": {
+                    "48x48": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416",
+                    "24x24": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=small",
+                    "16x16": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=xsmall",
+                    "32x32": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=medium"
+                }
+            },
+            "customfield_10031": null,
+            "fixVersions": [],
+            "customfield_10034": null,
+            "aggregatetimespent": null,
+            "resolution": null,
+            "customfield_10035": null,
+            "customfield_10036": null,
+            "customfield_10037": null,
+            "customfield_10027": null,
+            "customfield_10028": null,
+            "customfield_10029": null,
+            "resolutiondate": null,
+            "workratio": -1,
+            "lastViewed": null,
+            "watches": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/SCRUM-19/watchers",
+                "watchCount": 1,
+                "isWatching": true
+            },
+            "created": "2025-02-28T14:55:53.281+0100",
+            "customfield_10020": null,
+            "customfield_10021": null,
+            "customfield_10022": null,
+            "priority": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                "name": "Medium",
+                "id": "3"
+            },
+            "customfield_10023": null,
+            "customfield_10024": null,
+            "customfield_10025": null,
+            "labels": [
+                "AI",
+                "TestFailure"
+            ],
+            "customfield_10026": null,
+            "customfield_10016": null,
+            "customfield_10017": null,
+            "customfield_10018": {
+                "hasEpicLinkFieldDependency": false,
+                "showField": false,
+                "nonEditableReason": {
+                    "reason": "PLUGIN_LICENSE_ERROR",
+                    "message": "Pole Łącze nadrzędne jest dostępne tylko dla użytkowników Jira Premium."
+                }
+            },
+            "customfield_10019": "0|i0009z:",
+            "timeestimate": null,
+            "aggregatetimeoriginalestimate": null,
+            "versions": [],
+            "issuelinks": [
+                {
+                    "id": "10010",
+                    "self": "https://marcin00001a.atlassian.net/rest/api/3/issueLink/10010",
+                    "type": {
+                        "id": "10000",
+                        "name": "Blocks",
+                        "inward": "is blocked by",
+                        "outward": "blocks",
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/issueLinkType/10000"
+                    },
+                    "inwardIssue": {
+                        "id": "10028",
+                        "key": "SCRUM-2",
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10028",
+                        "fields": {
+                            "summary": "Functional Test - Accuracy 0.9767",
+                            "status": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10001",
+                                "description": "To zgłoszenie jest teraz aktywnie rozwiązywane przez osobę do niego przypisaną.",
+                                "iconUrl": "https://marcin00001a.atlassian.net/",
+                                "name": "W toku",
+                                "id": "10001",
+                                "statusCategory": {
+                                    "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/4",
+                                    "id": 4,
+                                    "key": "indeterminate",
+                                    "colorName": "yellow",
+                                    "name": "W toku"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                                "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                                "name": "Medium",
+                                "id": "3"
+                            },
+                            "issuetype": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10005",
+                                "id": "10005",
+                                "description": "Podzadania śledzą małe elementy, które są częścią większego zadania.",
+                                "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                                "name": "Podzadanie",
+                                "subtask": true,
+                                "avatarId": 10316,
+                                "entityId": "7a54d118-1637-42bf-a516-c9d1b6258f7b",
+                                "hierarchyLevel": -1
+                            }
+                        }
+                    }
+                }
+            ],
+            "assignee": null,
+            "updated": "2025-02-28T14:55:55.719+0100",
+            "status": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10000",
+                "description": "",
+                "iconUrl": "https://marcin00001a.atlassian.net/",
+                "name": "Do zrobienia",
+                "id": "10000",
+                "statusCategory": {
+                    "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/2",
+                    "id": 2,
+                    "key": "new",
+                    "colorName": "blue-gray",
+                    "name": "Do zrobienia"
+                }
+            },
+            "components": [],
+            "timeoriginalestimate": null,
+            "description": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Accuracy below threshold: 0.9726 (Threshold: 0.99)"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Metrics: Precision=0.9729, Recall=0.9726, F1-Score=0.9727"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Model Details: Layers=3 (Dense: 128 neurons, Dense: 64 neurons, Dense: 10 neurons)"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Training: Optimizer=adam, LR=0.001, Batch Size=32, Loss=sparse_categorical_crossentropy, Epochs=5"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Test Data: Size=10000 samples, Class Distribution=Class 0: 980, Class 1: 1135, Class 2: 1032, Class 3: 1010, Class 4: 982, Class 5: 892, Class 6: 958, Class 7: 1028, Class 8: 974, Class 9: 1009"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Execution Time: 15.50 seconds"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Environment: TensorFlow v2.18.0, Python 3.12.9, Windows 11"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Top Misclassification: Class 4 misclassified as 9: 22 times"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customfield_10010": null,
+            "customfield_10014": null,
+            "customfield_10015": null,
+            "customfield_10005": null,
+            "customfield_10006": null,
+            "security": null,
+            "customfield_10007": null,
+            "customfield_10008": null,
+            "customfield_10009": null,
+            "aggregatetimeestimate": null,
+            "summary": "Test failed: Accuracy 0.9726 < 0.99",
+            "creator": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/user?accountId=712020%3A383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "accountId": "712020:383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "emailAddress": "marcin00001a@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "24x24": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "16x16": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "32x32": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                },
+                "displayName": "Marcin Nowak",
+                "active": true,
+                "timeZone": "Europe/Warsaw",
+                "accountType": "atlassian"
+            },
+            "subtasks": [],
+            "reporter": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/user?accountId=712020%3A383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "accountId": "712020:383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "emailAddress": "marcin00001a@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "24x24": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "16x16": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "32x32": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                },
+                "displayName": "Marcin Nowak",
+                "active": true,
+                "timeZone": "Europe/Warsaw",
+                "accountType": "atlassian"
+            },
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            },
+            "customfield_10001": null,
+            "customfield_10002": [],
+            "customfield_10003": null,
+            "customfield_10004": null,
+            "environment": null,
+            "duedate": null,
+            "progress": {
+                "progress": 0,
+                "total": 0
+            },
+            "votes": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/SCRUM-19/votes",
+                "votes": 0,
+                "hasVoted": false
+            }
+        }
+    },
+    {
+        "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+        "id": "10034",
+        "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10034",
+        "key": "SCRUM-8",
+        "fields": {
+            "statuscategorychangedate": "2025-02-28T10:34:33.249+0100",
+            "issuetype": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10002",
+                "id": "10002",
+                "description": "Problem lub błąd.",
+                "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                "name": "Błąd w programie",
+                "subtask": false,
+                "avatarId": 10303,
+                "entityId": "bc7c59b2-fabc-4741-873f-d2a1bb787fc9",
+                "hierarchyLevel": 0
+            },
+            "timespent": null,
+            "customfield_10030": null,
+            "project": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/project/10000",
+                "id": "10000",
+                "key": "SCRUM",
+                "name": "AI_Tests_vol_0.1",
+                "projectTypeKey": "software",
+                "simplified": true,
+                "avatarUrls": {
+                    "48x48": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416",
+                    "24x24": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=small",
+                    "16x16": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=xsmall",
+                    "32x32": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=medium"
+                }
+            },
+            "customfield_10031": null,
+            "fixVersions": [],
+            "customfield_10034": null,
+            "aggregatetimespent": null,
+            "resolution": null,
+            "customfield_10035": null,
+            "customfield_10036": null,
+            "customfield_10037": null,
+            "customfield_10027": null,
+            "customfield_10028": null,
+            "customfield_10029": null,
+            "resolutiondate": null,
+            "workratio": -1,
+            "watches": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/SCRUM-8/watchers",
+                "watchCount": 1,
+                "isWatching": true
+            },
+            "lastViewed": "2025-02-28T10:35:06.604+0100",
+            "created": "2025-02-28T10:34:33.020+0100",
+            "customfield_10020": null,
+            "customfield_10021": null,
+            "customfield_10022": null,
+            "priority": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                "name": "Medium",
+                "id": "3"
+            },
+            "customfield_10023": null,
+            "customfield_10024": null,
+            "customfield_10025": null,
+            "customfield_10026": null,
+            "labels": [],
+            "customfield_10016": null,
+            "customfield_10017": null,
+            "customfield_10018": {
+                "hasEpicLinkFieldDependency": false,
+                "showField": false,
+                "nonEditableReason": {
+                    "reason": "PLUGIN_LICENSE_ERROR",
+                    "message": "Pole Łącze nadrzędne jest dostępne tylko dla użytkowników Jira Premium."
+                }
+            },
+            "customfield_10019": "0|i0007j:",
+            "timeestimate": null,
+            "aggregatetimeoriginalestimate": null,
+            "versions": [],
+            "issuelinks": [
+                {
+                    "id": "10004",
+                    "self": "https://marcin00001a.atlassian.net/rest/api/3/issueLink/10004",
+                    "type": {
+                        "id": "10000",
+                        "name": "Blocks",
+                        "inward": "is blocked by",
+                        "outward": "blocks",
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/issueLinkType/10000"
+                    },
+                    "inwardIssue": {
+                        "id": "10028",
+                        "key": "SCRUM-2",
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10028",
+                        "fields": {
+                            "summary": "Functional Test - Accuracy 0.9767",
+                            "status": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10001",
+                                "description": "To zgłoszenie jest teraz aktywnie rozwiązywane przez osobę do niego przypisaną.",
+                                "iconUrl": "https://marcin00001a.atlassian.net/",
+                                "name": "W toku",
+                                "id": "10001",
+                                "statusCategory": {
+                                    "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/4",
+                                    "id": 4,
+                                    "key": "indeterminate",
+                                    "colorName": "yellow",
+                                    "name": "W toku"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                                "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                                "name": "Medium",
+                                "id": "3"
+                            },
+                            "issuetype": {
+                                "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10005",
+                                "id": "10005",
+                                "description": "Podzadania śledzą małe elementy, które są częścią większego zadania.",
+                                "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                                "name": "Podzadanie",
+                                "subtask": true,
+                                "avatarId": 10316,
+                                "entityId": "7a54d118-1637-42bf-a516-c9d1b6258f7b",
+                                "hierarchyLevel": -1
+                            }
+                        }
+                    }
+                }
+            ],
+            "assignee": null,
+            "updated": "2025-02-28T10:34:35.646+0100",
+            "status": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10000",
+                "description": "",
+                "iconUrl": "https://marcin00001a.atlassian.net/",
+                "name": "Do zrobienia",
+                "id": "10000",
+                "statusCategory": {
+                    "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/2",
+                    "id": 2,
+                    "key": "new",
+                    "colorName": "blue-gray",
+                    "name": "Do zrobienia"
+                }
+            },
+            "components": [],
+            "timeoriginalestimate": null,
+            "description": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Accuracy below threshold: 0.9753"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customfield_10010": null,
+            "customfield_10014": null,
+            "customfield_10015": null,
+            "customfield_10005": null,
+            "customfield_10006": null,
+            "security": null,
+            "customfield_10007": null,
+            "customfield_10008": null,
+            "customfield_10009": null,
+            "aggregatetimeestimate": null,
+            "summary": "Test failed: Accuracy 0.9753 < 0.99",
+            "creator": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/user?accountId=712020%3A383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "accountId": "712020:383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "emailAddress": "marcin00001a@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "24x24": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "16x16": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "32x32": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                },
+                "displayName": "Marcin Nowak",
+                "active": true,
+                "timeZone": "Europe/Warsaw",
+                "accountType": "atlassian"
+            },
+            "subtasks": [],
+            "reporter": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/user?accountId=712020%3A383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "accountId": "712020:383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "emailAddress": "marcin00001a@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "24x24": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "16x16": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "32x32": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                },
+                "displayName": "Marcin Nowak",
+                "active": true,
+                "timeZone": "Europe/Warsaw",
+                "accountType": "atlassian"
+            },
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            },
+            "customfield_10001": null,
+            "customfield_10002": [],
+            "customfield_10003": null,
+            "customfield_10004": null,
+            "environment": null,
+            "duedate": null,
+            "progress": {
+                "progress": 0,
+                "total": 0
+            },
+            "votes": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/SCRUM-8/votes",
+                "votes": 0,
+                "hasVoted": false
+            }
+        }
+    },
+    {
+        "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+        "id": "10033",
+        "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10033",
+        "key": "SCRUM-7",
+        "fields": {
+            "statuscategorychangedate": "2025-02-28T10:13:23.721+0100",
+            "issuetype": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10002",
+                "id": "10002",
+                "description": "Problem lub błąd.",
+                "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                "name": "Błąd w programie",
+                "subtask": false,
+                "avatarId": 10303,
+                "entityId": "bc7c59b2-fabc-4741-873f-d2a1bb787fc9",
+                "hierarchyLevel": 0
+            },
+            "parent": {
+                "id": "10030",
+                "key": "SCRUM-4",
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/10030",
+                "fields": {
+                    "summary": "Sieć Neuronowa TensorFlow",
+                    "status": {
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10000",
+                        "description": "",
+                        "iconUrl": "https://marcin00001a.atlassian.net/",
+                        "name": "Do zrobienia",
+                        "id": "10000",
+                        "statusCategory": {
+                            "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/2",
+                            "id": 2,
+                            "key": "new",
+                            "colorName": "blue-gray",
+                            "name": "Do zrobienia"
+                        }
+                    },
+                    "priority": {
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                        "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                        "name": "Medium",
+                        "id": "3"
+                    },
+                    "issuetype": {
+                        "self": "https://marcin00001a.atlassian.net/rest/api/3/issuetype/10004",
+                        "id": "10004",
+                        "description": "Epiki śledzą kolekcje powiązanych błędów, historii i zadań.",
+                        "iconUrl": "https://marcin00001a.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                        "name": "Epik",
+                        "subtask": false,
+                        "avatarId": 10307,
+                        "entityId": "b436d5e0-fafe-410d-8645-9a73bd65cfef",
+                        "hierarchyLevel": 1
+                    }
+                }
+            },
+            "timespent": null,
+            "customfield_10030": null,
+            "project": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/project/10000",
+                "id": "10000",
+                "key": "SCRUM",
+                "name": "AI_Tests_vol_0.1",
+                "projectTypeKey": "software",
+                "simplified": true,
+                "avatarUrls": {
+                    "48x48": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416",
+                    "24x24": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=small",
+                    "16x16": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=xsmall",
+                    "32x32": "https://marcin00001a.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10416?size=medium"
+                }
+            },
+            "customfield_10031": null,
+            "fixVersions": [],
+            "customfield_10034": null,
+            "aggregatetimespent": null,
+            "resolution": null,
+            "customfield_10035": null,
+            "customfield_10036": null,
+            "customfield_10037": null,
+            "customfield_10027": null,
+            "customfield_10028": null,
+            "customfield_10029": null,
+            "resolutiondate": null,
+            "workratio": -1,
+            "lastViewed": "2025-02-28T10:15:28.476+0100",
+            "watches": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/SCRUM-7/watchers",
+                "watchCount": 1,
+                "isWatching": true
+            },
+            "created": "2025-02-28T10:13:23.455+0100",
+            "customfield_10020": [
+                {
+                    "id": 2,
+                    "name": "Tablica Sprint 2",
+                    "state": "future",
+                    "boardId": 1
+                }
+            ],
+            "customfield_10021": null,
+            "customfield_10022": null,
+            "priority": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/priority/3",
+                "iconUrl": "https://marcin00001a.atlassian.net/images/icons/priorities/medium_new.svg",
+                "name": "Medium",
+                "id": "3"
+            },
+            "customfield_10023": null,
+            "customfield_10024": null,
+            "customfield_10025": null,
+            "customfield_10026": null,
+            "labels": [],
+            "customfield_10016": null,
+            "customfield_10017": null,
+            "customfield_10018": {
+                "hasEpicLinkFieldDependency": false,
+                "showField": false,
+                "nonEditableReason": {
+                    "reason": "PLUGIN_LICENSE_ERROR",
+                    "message": "Pole Łącze nadrzędne jest dostępne tylko dla użytkowników Jira Premium."
+                }
+            },
+            "customfield_10019": "0|i0007b:",
+            "timeestimate": null,
+            "aggregatetimeoriginalestimate": null,
+            "versions": [],
+            "issuelinks": [],
+            "assignee": null,
+            "updated": "2025-03-01T14:40:14.587+0100",
+            "status": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/status/10000",
+                "description": "",
+                "iconUrl": "https://marcin00001a.atlassian.net/",
+                "name": "Do zrobienia",
+                "id": "10000",
+                "statusCategory": {
+                    "self": "https://marcin00001a.atlassian.net/rest/api/3/statuscategory/2",
+                    "id": 2,
+                    "key": "new",
+                    "colorName": "blue-gray",
+                    "name": "Do zrobienia"
+                }
+            },
+            "components": [],
+            "timeoriginalestimate": null,
+            "description": {
+                "type": "doc",
+                "version": 1,
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Accuracy below threshold: 0.9759"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "customfield_10010": null,
+            "customfield_10014": null,
+            "customfield_10015": null,
+            "customfield_10005": null,
+            "customfield_10006": null,
+            "security": null,
+            "customfield_10007": null,
+            "customfield_10008": null,
+            "customfield_10009": null,
+            "aggregatetimeestimate": null,
+            "summary": "Test failed: Accuracy 0.9759 < 0.99",
+            "creator": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/user?accountId=712020%3A383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "accountId": "712020:383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "emailAddress": "marcin00001a@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "24x24": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "16x16": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "32x32": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                },
+                "displayName": "Marcin Nowak",
+                "active": true,
+                "timeZone": "Europe/Warsaw",
+                "accountType": "atlassian"
+            },
+            "subtasks": [],
+            "reporter": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/user?accountId=712020%3A383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "accountId": "712020:383a36ae-3cfb-4ddd-9b5e-0864015e8cd7",
+                "emailAddress": "marcin00001a@gmail.com",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "24x24": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "16x16": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                    "32x32": "https://secure.gravatar.com/avatar/75c29cdcba4488d1cf98da5d306d1486?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                },
+                "displayName": "Marcin Nowak",
+                "active": true,
+                "timeZone": "Europe/Warsaw",
+                "accountType": "atlassian"
+            },
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            },
+            "customfield_10001": null,
+            "customfield_10002": [],
+            "customfield_10003": null,
+            "customfield_10004": null,
+            "environment": null,
+            "duedate": null,
+            "progress": {
+                "progress": 0,
+                "total": 0
+            },
+            "votes": {
+                "self": "https://marcin00001a.atlassian.net/rest/api/3/issue/SCRUM-7/votes",
+                "votes": 0,
+                "hasVoted": false
+            }
+        }
+    }
+]

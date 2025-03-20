@@ -1,0 +1,61 @@
+# AI Testing Project
+
+Projekt testowy w Pythonie do testowania modeli AI/ML na zbiorach danych MNIST i Fashion MNIST, zgodny z ISTQB Certified Tester AI Testing (CT-AI). Projekt obejmuje różne typy testów (Functional, Robustness, Performance, Explainability, Ethics, Data Quality, Regression, Mutational, CI, Load), integrację z JIRA oraz analizę wyników.
+
+## Struktura projektu
+
+- `analysis/`: Analiza wyników (np. defektów z JIRA, metryki modelu).
+- `database/`: Skrypty do tworzenia i zarządzania bazą danych SQLite.
+- `data_manipulation/`: Funkcje do manipulacji danymi (np. dodanie szumu, niezbalansowane klasy).
+- `jira/`: Skrypty do integracji z JIRA (import testów, raportowanie, pobieranie defektów).
+- `test_types/`: Definicje typów testów (zgodnych z ISTQB CT-AI).
+- `tests/`: Skrypty testowe (Functional, Robustness, Performance, Explainability, Ethics, Data Quality, Regression, Mutational, CI, Load).
+- `datasets/`: Zbiory danych (np. Fashion MNIST w formacie CSV).
+- `config.py`: Plik konfiguracyjny z danymi wrażliwymi (wykluczony z GitHub).
+- `README.md`: Dokumentacja projektu.
+- `requirements.txt`: Lista wymaganych bibliotek.
+- `test_cases.csv`: Plik CSV z przypadkami testowymi do importu do JIRA.
+- `test_results.db`: Baza danych SQLite przechowująca wyniki testów.
+
+## Funkcjonalności
+
+- **Import przypadków testowych z CSV do JIRA.**
+- **Testy różnych typów (zgodne z ISTQB CT-AI):**
+  - Functional: Sprawdzenie poprawności klasyfikacji (MNIST i Fashion MNIST).
+  - Robustness: Test odporności modelu na szum.
+  - Performance: Pomiar metryk wydajności (accuracy, precision, recall, F1-score).
+  - Explainability: Analiza ważnych pikseli (Saliency Map).
+  - Ethics: Weryfikacja uprzedzeń modelu (niezbalansowane klasy).
+  - Data Quality: Ocena jakości danych (np. rozkład klas).
+  - Regression: Porównanie wydajności modelu przed i po zmianach.
+  - Mutational: Test czułości testów poprzez mutacje modelu.
+  - CI: Weryfikacja minimalnej dokładności w procesie ciągłej integracji.
+  - Load: Test obciążeniowy (czas predykcji dla dużej liczby obrazów).
+- **Raportowanie wyników i defektów do JIRA** (w tym załączniki, np. confusion matrix, saliency maps).
+- **Aktualizacja istniejących defektów** w JIRA (dodawanie wyników retestu jako komentarze).
+- **Pobieranie i analiza defektów z JIRA** (np. średnie metryki, najczęstsze pomyłki).
+- **Manipulacja danymi wejściowymi** (szum, niezbalansowane klasy, zmiana jasności, obrót obrazów).
+- **Zdefiniowane typy testów z opisami i przykładami** w bazie danych.
+- **Uruchamianie testów sekwencyjnie** za pomocą skryptu zbiorczego.
+
+## Wymagania
+
+- Python 3.8+
+- Biblioteki wymienione w `requirements.txt`
+
+## Jak zainstalować
+
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/your-username/AI-Testing-Project.git
+   cd AI-Testing-Project
+
+2. Utwórz i aktywuj środowisko wirtualne:
+   python -m venv venv
+   source venv/bin/activate  # Windows: venv\Scripts\activate
+
+3. Zainstaluj wymagane biblioteki z requirements.txt:
+   pip install -r requirements.txt
+
+
+
